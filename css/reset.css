@@ -11,6 +11,12 @@ a{
     /* 点击a标签显示透明色，不设置会显示蓝色 */
     -webkit-tap-highlight-color:transparent;
 }
+
+a:link,a:visited,a:hover,a:active{
+    text-decoration:none; 
+}
+
+
 ul{
     list-style:none;
 }
